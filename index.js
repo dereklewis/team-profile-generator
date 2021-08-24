@@ -14,3 +14,7 @@ getEmail()
 
 getRole()
 }
+
+Employees.prototype.getInfo = function () {
+    
+}
