@@ -1,10 +1,34 @@
-const Inquirer = require("inquirer");
 
-const Employee = require("./lib/employee.js");
-const Manager = require("./lib/manager.js");
-const Intern = require("./lib/intern.js");
-const Engineer = require("./lib/engineer.js");
-const inquirer = require("inquirer.js");
+// const Employee = require("./lib/employee.js");
+// const Manager = require("./lib/manager.js");
+// const Intern = require("./lib/intern.js");
+// const Engineer = require("./lib/engineer.js");
+const inquirer = require("inquirer");
+
+
+function managerName() {
+inquirer.prompt(["What is your manager's name?"])
+.then((manager) => {
+    console.log(manager);
+})
+.catch((error) => {
+    if (error)
+    
+})
+};
+managerName();
+
+
+
+
+
+
+
+
+
+
+
+
 
 const qustions = [
 
@@ -35,10 +59,11 @@ const qustions = [
         choices: ["Engineer", "Intern", "I don't want to add anymore team members"],
     },
 
-]
+];
 
-    function init() {
-        inquirer.prompt(questions).then((data) => {
-          console.log(data);
-        })
-    }
+//     function init() {
+//         inquirer.prompt(questions).then((data) => {
+//           console.log(data);
+//         })
+//     }
+//     init();

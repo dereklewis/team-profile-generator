@@ -1,5 +1,5 @@
 
-//Set up folder and document structure
+//Set up folder and document structure -- complete
 
 //Set up test files for each Employee type - Employee, Engineer, Manager, Intern
 
